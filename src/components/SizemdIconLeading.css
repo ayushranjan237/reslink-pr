@@ -1,0 +1,29 @@
+.circle-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.sizemd-iconleading {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-600);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--primary-600);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--text-sm-semibold-size);
+  color: var(--white);
+  font-family: var(--text-sm-semibold);
+}

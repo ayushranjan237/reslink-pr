@@ -1,0 +1,17 @@
+.container,
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  padding: 0 var(--padding-32xl);
+}
+.header-section {
+  position: absolute;
+  top: 147px;
+  left: 332px;
+  width: 1055px;
+}

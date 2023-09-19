@@ -1,0 +1,33 @@
+.avatar-icon {
+  border-radius: var(--br-181xl);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.supporting-text,
+.text3 {
+  position: relative;
+  line-height: 20px;
+}
+.text3 {
+  font-weight: 600;
+}
+.supporting-text {
+  color: var(--gray-500);
+}
+.sizemd-status-iconfalse-st,
+.text-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sizemd-status-iconfalse-st {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--text-sm-semibold-size);
+  color: var(--gray-700);
+  font-family: var(--text-sm-semibold);
+}

@@ -1,0 +1,108 @@
+.heading2 {
+  margin: 0;
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.metric-item-inner {
+  position: absolute;
+  top: 63.5px;
+  left: calc(50% - 257.5px);
+  border-top: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 515px;
+  height: 1px;
+}
+.frame-child {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumturquoise);
+  width: 12px;
+  height: 12px;
+}
+.interview-is-scheduled {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 279px;
+  flex-shrink: 0;
+}
+.pm {
+  position: relative;
+}
+.ellipse-parent,
+.pm-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-parent {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-400);
+  padding: var(--padding-xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+}
+.frame-item {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 12px;
+  height: 12px;
+}
+.pm1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 106px;
+  flex-shrink: 0;
+}
+.pm-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  align-items: center;
+  justify-content: flex-start;
+  text-align: right;
+}
+.frame-child1,
+.frame-inner {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-peru);
+  width: 12px;
+  height: 12px;
+}
+.frame-child1 {
+  background-color: var(--color-mediumseagreen-100);
+}
+.frame-group {
+  position: absolute;
+  top: 79px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--text-sm-semibold-size);
+}
+.metric-item2 {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-600);
+  backdrop-filter: blur(20.8px);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 514px;
+  height: 410px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--primary-white);
+  font-family: var(--font-poppins);
+}

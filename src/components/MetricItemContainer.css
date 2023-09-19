@@ -1,0 +1,65 @@
+.number {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 600;
+}
+.number-and-badge,
+.number-and-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.number-and-chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.heading {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 140px;
+  flex-shrink: 0;
+}
+.heading-and-dropdown {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+}
+.number-and-chart-parent {
+  position: relative;
+  width: 140px;
+  height: 74px;
+}
+.metric-item-child {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.metric-item {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-600);
+  backdrop-filter: blur(20.8px);
+  border: 1px solid var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--primary-white);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,8 @@
+.logo-icon1 {
+  position: absolute;
+  top: 90px;
+  left: calc(50% - 180px);
+  width: 319px;
+  height: 79px;
+  overflow: hidden;
+}
